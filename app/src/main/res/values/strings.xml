@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">app_festejos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="product">Productos</string>
+    <string name="service">Servicios</string>
+    <string name="sucursal">Sucursales</string>
+    <string name="favorite">Favoritos</string>
+
+    <string name="title_prod">Título Producto</string>
+    <string name="description_prod">Descripción producto</string>
+    <string name="price_prod">Precio producto</string>
+
+    <string name="title_serv">Título Servicio</string>
+    <string name="description_serv">Descripción servicio</string>
+    <string name="price_serv">precio servicio</string>
+
+    <string name="title_fav">Título Favorito</string>
+    <string name="description_fav">Descripción Favorito</string>
+    <string name="price_fav">precio Favorito</string>
+
+    <string name="title_suc">Título sucursal</string>
+    <string name="description_suc">Descripción sucursal</string>
+    <string name="address_suc">Direccion</string>
 </resources>

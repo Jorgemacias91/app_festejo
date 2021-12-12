@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share"
+        android:title=""
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/favorite"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        />
+    <item
+        android:id="@+id/more"
+        android:title=""
+        android:icon="@drawable/ic_baseline_read_more_24"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/productOpt"
+                android:title="Productos"
+                android:icon="@drawable/ic_baseline_wine_bar_24"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/serviceOpt"
+                android:title="Servicios"
+                android:icon="@drawable/ic_baseline_design_services_24"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/sucurOpt"
+                android:title="Sucursales"
+                android:icon="@drawable/ic_baseline_home_work_24"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>
