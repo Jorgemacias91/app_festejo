@@ -104,14 +104,14 @@ public class Fragment_Inicio extends Fragment {
             @Override
             public void onClick(View v) {
                 createNotificationChannel();
-                createNotification("titulo noti", "soy una noti");
+                createNotification("FiestaApp", "Inicias tu mejor fiesta");
             }
         });
 
         btnDialogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                createDialogo("hola", "contenido hola");
+                createDialogo("FiestaApp", "Bienvendio a tu mejor fiesta");
             }
         });
 

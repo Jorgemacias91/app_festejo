@@ -6,7 +6,6 @@ public class Entidad {
     String titulo;
     String descripcion;
 
-
     public Entidad(int imagen, String titulo, String descripcion) {
         this.imagen = imagen;
         this.titulo = titulo;
@@ -24,4 +23,5 @@ public class Entidad {
     public String getDescripcion() {
         return descripcion;
     }
+
 }
